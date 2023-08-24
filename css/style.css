@@ -1,0 +1,143 @@
+
+*{
+    font-family: sans-serif;
+}
+.nav-menu{
+    width:100%;
+    background-color: #0c293c;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo{
+    width: 20%;
+    display: flex;
+    justify-content: end;
+}
+.nav-logo>img{
+    width: 70%;
+    height: 80%;
+    margin-left: 15px;
+}
+.nav-items{
+    width: 80%;
+}
+.nav-items>nav>ul>li>a{
+    text-decoration:none ;
+    color:#ffffff;
+    padding: 0px 20px 0px 20px ;
+    font-size: 1.3rem;
+}
+
+.nav-link:hover{
+    color: #0c293c;
+    background-color: #ff9a02;
+}
+.nav-items>nav>ul>li{
+    display: inline;
+    justify-content: end;
+}
+.nav-items>nav{
+    display: flex;
+    justify-content: space-around;
+}
+.brand-image{
+    width: 80%;
+    border-radius: 50%;
+    /* background-color: #eca813; */
+}
+
+#banner{
+    height: 100vh;
+    background-image: linear-gradient(rgba(65, 64, 150, 0.5),rgba(230, 144, 15, 0.678)), url('../img/Rustaurant-project.jpeg');
+    background-size: cover;
+}
+
+.brand-text>h1{
+    font-size: 4rem;
+    color:#f76707;
+}
+.brand-text>p{
+    font-size: 1.4rem;
+    margin-top: -50px;
+    color:#ffffff;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.team-image{
+    width: 50%;
+    align-items: center;
+}
+.section3>div{
+    margin-left: 100px;
+    /* margin-bottom: 100px; */
+}
+
+.section3>div>img{
+    height: 120px;
+}
+
+/* .section1>img{
+    /* height: 100vh;
+    width: 100vh; */
+/* } */
+            
+/* .section2>div{
+    margin-left: 150px;
+} */
+
+.me{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#about-us{
+    text-align: center;
+    line-height: 25px;
+}
+
+#about-us div ul{
+    list-style-type: none;
+}
+
+#about-us .customerReview{
+    border-left: 2px solid #000;
+    margin: 10px 10px;
+}
+
+#about-us .customerReview ul li span{
+    font-weight: bold;
+}
+
+#services{
+    background-color: #f58506;
+    color: #ffffff;
+    text-align: center;
+}
+
+#contact-us{
+    text-align: center;
+    background-color: #f76707;
+    max-width: 2000px;
+    padding: 20px;
+    color: #ffffff;
+}
+
+#contact-us h3{
+    font-size: 40px;
+    margin: -5px 0px 30px 0px;
+}
+
+#contact-us div img{
+    height: 10vh;
+    justify-content: center;
+}
+
+footer{
+    background-color: #0c293c;
+    text-align: center ;
+    color:#ffffff ;
+    margin-top: -30px;
+    margin-bottom: -30px;
+}
